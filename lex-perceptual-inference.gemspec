@@ -26,4 +26,5 @@ Gem::Specification.new do |spec|
     Dir.glob('{lib,spec}/**/*') + %w[lex-perceptual-inference.gemspec Gemfile]
   end
   spec.require_paths = ['lib']
+  spec.add_development_dependency 'legion-gaia'
 end
